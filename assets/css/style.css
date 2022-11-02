@@ -36,6 +36,17 @@ h2 {
 .pos-a {
     position: absolute;
 }
+.scrollBar::-webkit-scrollbar {
+    height: 5px;               /* ширина scrollbar */
+}
+.scrollBar::-webkit-scrollbar-track {
+    background: #1B80B4;        /* цвет дорожки */
+}
+.scrollBar::-webkit-scrollbar-thumb {
+    background-color: rgba(2, 59, 88, 0.7);    /* цвет плашки */
+    border-radius: 5px;       /* закругления плашки */
+    border: 1px solid #1B80B4;  /* padding вокруг плашки */
+}
 /*Elements*/
 h1 {
     font-weight: 900;
