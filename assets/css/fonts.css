@@ -33,7 +33,7 @@
         url('../fonts/inter/Inter-ExtraBold.ttf') format('truetype'),
         url('../fonts/inter/Inter-ExtraBold.svg#Inter-ExtraBold') format('svg');
     font-weight: bold;
-    font-style: normal;
+    font-style: normal; 
     font-display: swap;
 }
 
